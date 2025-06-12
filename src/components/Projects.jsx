@@ -44,7 +44,8 @@ const Projects = () => {
                                         boxShadow: "0px 0px 8px rgb(107, 33, 135)"
 
                                     }}
-                                 className=' inline-block mr-2 rounded  bg-neutral-900 px-2 py-1 text-sm font-medium hover:text-red-100 text-purple-900' key={index}>
+                                 className=' inline-block mr-2 rounded  bg-neutral-900 px-2 py-1 text-sm font-medium hover:text-red-100 text-purple-900'
+                                  key={index}>
                                     {tech}
                                 </motion.span>
                             ))}

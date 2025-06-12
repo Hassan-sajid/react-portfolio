@@ -38,7 +38,7 @@ const Contact = () => {
               initial = {{opacity: 0 , x:-100}}
               whileHover={{scale:1.1}}
               transition={{duration:1}}
-                 className='my-4 underline '> {CONTACT.email}
+                 className='my-4 underline '> "abc@gmail.com"
             </motion.p>
         </div>
       
